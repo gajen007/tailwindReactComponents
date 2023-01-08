@@ -28,3 +28,8 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes mymove {
+  from {color: red;}
+  to {color: blue;}
+}

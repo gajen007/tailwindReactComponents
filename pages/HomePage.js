@@ -1,5 +1,6 @@
-import React from "react"
-import Gallery from '../components/Gallery'
-export default function HomePage() {
-    return <Gallery/>
+import Link from 'next/link'
+export default function ComponentName() {
+return <>
+    <Link href="AnimateWhenScrolled">Test</Link>
+    </>
 }

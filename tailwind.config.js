@@ -30,7 +30,24 @@ module.exports = {
       'tw-red':'#ef4444',
       'tw-bluishGreen':'#0f766e'
     },
-    extend: {},
+    extend: {
+      keyframes:{
+        'disappear':{
+          '0%':{opacity:'1'},
+          '50%':{opacity:'0.5'},
+          '100%':{opacity:'0'}
+        },
+        'appear':{
+          '0%':{opacity:'0'},
+          '50%':{opacity:'0.5'},
+          '100%':{opacity:'1'}
+        }
+      },
+      animation: {
+        'appear': 'appear 2s linear',
+        'disappear': 'disappear 2s linear',
+      }
+    },
   },
   plugins: [],
 }
